@@ -442,7 +442,6 @@ router.get('/userProfile/getUserDetails/:veteranID', (req, res) => {
               .status(501)
               .json({ responseStatus: 'FAILURE', data: null, error: err });
           });
-
       }
     })
     .catch((err) => {
